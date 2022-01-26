@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(252, 252, 252);
+  font-family: "Alegreya Sans", sans-serif;
+  color: rgb(48, 52, 54);
+}
+
+.App {
+  width: 400px;
+  min-height: 600px;
+  height: auto;
+  margin: 80px auto;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(208, 140, 96);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 5px 10px 18px rgb(136, 136, 136);
+}
+
+.header {
+  text-transform: uppercase;
+  text-shadow: 3px 2px 3px rgb(153, 123, 102);
+  color: rgb(255, 255, 255);
+}
+
+.form-row {
+  padding: 5px;
+}
+
+.add-task {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 1px 1px 2px whitesmoke;
+}
+
+.addbtn {
+  border-radius: 6px;
+  padding: 10px 10px;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  margin-left: 2px;
+  text-shadow: 1px 1px 1px rgb(241, 220, 167);
+  box-shadow: 1px 1px 2px whitesmoke;
+  color: rgb(208, 140, 96);
+  font-weight: bold;
+}
+
+.addbtn:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 450px) {
+  .App {
+    width: 240px;
+    padding: 5px;
+  }
+
+  .addbtn {
+    margin: 5px;
+  }
+
+  li {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .App {
+    width: 200px;
+    padding: 5px;
+    margin: 30px auto;
+  }
+
+  li {
+    width: 70%;
+  }
+}

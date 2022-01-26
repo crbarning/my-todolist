@@ -1,4 +1,5 @@
-import "./styles.css";
+import "./TodoForm.css";
+import "./TodoList.css";
 import { useState } from "react";
 import TodoList from "./Components/TodoList/TodoList";
 import TodoForm from "./Components/TodoForm/TodoForm";
